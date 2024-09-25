@@ -13,6 +13,9 @@ import Jeans from '../../assets/jeans.png'
 import Basket from '../../assets/baskets.png'
 import Dots from '../../assets/dots.png'
 import Shopping from '../../assets/shopping.png'
+import sweaterShirt from '../../assets/sweaterShirt.png'
+import Pant from '../../assets/Pant.png'
+import Star from '../../assets/Star 1.png'
 
 const Home = () => {
     return (
@@ -80,20 +83,63 @@ const Home = () => {
                     <div className='w-[750px] h-[250px] bg-recColor rounded-positionbtn relation absolute bottom-[-2041px] left-[530px]'>
                         <Flex>
                             <div className={"border-r-2 border-black"}>
-                            <Heading name={"2010"} className={"font-podkova font-bold text-[64px]  pl-[70px] pt-[50px]"}></Heading>
-                            <Paragraph pText={"Founded"} className={"font-pops font-medium text-[28px] pl-[70px]"}></Paragraph>
+                                <Heading name={"2010"} className={"font-podkova font-bold text-[64px]  pl-[70px] pt-[50px]"}></Heading>
+                                <Paragraph pText={"Founded"} className={"font-pops font-medium text-[28px] pl-[70px]"}></Paragraph>
                             </div>
                             <div className='border-r-2 border-pr-[50px] border-black '>
-                            <Heading name={"5000+"} className={"font-podkova font-bold text-[64px] pl-[70px] pt-[50px]"}></Heading>
-                            <Paragraph pText={"Product Sold"} className={"font-pops font-medium text-[28px] pl-[70px]"}></Paragraph>
+                                <Heading name={"5000+"} className={"font-podkova font-bold text-[64px] pl-[70px] pt-[50px]"}></Heading>
+                                <Paragraph pText={"Product Sold"} className={"font-pops font-medium text-[28px] pl-[70px]"}></Paragraph>
                             </div>
                             <div>
-                            <Heading name={"4500+"} className={"font-podkova font-bold text-[64px] pl-[70px] pt-[50px]"}></Heading>
-                            <Paragraph pText={"Best Reviews"} className={"font-pops font-medium text-[28px] pl-[70px]"}></Paragraph>
+                                <Heading name={"4500+"} className={"font-podkova font-bold text-[64px] pl-[70px] pt-[50px]"}></Heading>
+                                <Paragraph pText={"Best Reviews"} className={"font-pops font-medium text-[28px] pl-[70px]"}></Paragraph>
                             </div>
                         </Flex>
                     </div>
                 </Container>
+            </div>
+            <div className='pt-[40px] pb-[150px] mt-[150px] bg-bgTwoColor'>
+                <Flex>
+                    <div className='w-[40%]'>
+                        <Heading name={"Best Seller Product"} className={"text-[64px] pl-[60px] font-bold text-white font-frank"}></Heading>
+                        <Paragraph className={"font-frank font-bold text-2xl text-white pl-[60px] pt-[25px] pr-14"} pText={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac neque, velit tortor quam at donec etiam bibendum sagittis. Libero tempor, lacus amet, scelerisque neque mauris odio risus nec. Nisl, parturient at morbi morbi sit arcu. At integer maecenas tortor non lectus. "}></Paragraph>
+                        <Button className={"py-[30px] px-[85px] mt-[60px] ml-[60px] bg-black font-semibold text-white font-pops text-2xl rounded-large"} btn={"Learn MORE"}></Button>
+                    </div>
+                    <div className='pr-[20px] pt-10'>
+                        <Image src={sweaterShirt} alt={"img"}></Image>
+                        <div className='py-[20px] px-[25px] bg-white'>
+                            <Flex>
+                            <Image src={Star} alt={"Star"}/>
+                            <Image src={Star} alt={"Star"}/>
+                            <Image src={Star} alt={"Star"}/>
+                            <Image src={Star} alt={"Star"}/>
+                            <Image src={Star} alt={"Star"}/>
+                            </Flex>
+                            <Paragraph pText={"Sweater Shirt"} className={"font-pops font-semibold text-[22px] text-black pt-[10px]"}></Paragraph>
+                            <Flex>
+                                <Paragraph pText={"$45.99"} className={"font-pops text-2xl text-tColor pt-[10px]"}></Paragraph>
+                                <Paragraph pText={"$35.99"} className={"font-pops text-2xl text-black pl-[50px] pt-[10px]"}></Paragraph>
+                            </Flex>
+                        </div>
+                    </div>
+                    <div className='pt-10'>
+                        <Image  src={Pant} alt={"img"}></Image>
+                        <div className='px-[25px] py-[20px] bg-white'>
+                        <Flex>
+                            <Image src={Star} alt={"Star"}/>
+                            <Image src={Star} alt={"Star"}/>
+                            <Image src={Star} alt={"Star"}/>
+                            <Image src={Star} alt={"Star"}/>
+                            <Image src={Star} alt={"Star"}/>
+                            </Flex>
+                            <Paragraph pText={"Pants fashion"} className={"font-pops font-semibold text-[22px] text-black pt-[10px]"}></Paragraph>
+                            <Flex>
+                                <Paragraph pText={"$55"} className={"font-pops text-2xl text-tColor pt-[10px]"}></Paragraph>
+                                <Paragraph pText={"$44.99"} className={"font-pops text-2xl text-black pl-[50px] pt-[10px]"}></Paragraph>
+                            </Flex>
+                        </div>
+                    </div>
+                </Flex>
             </div>
         </>
     )

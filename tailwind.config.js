@@ -20,6 +20,8 @@ export default {
         'btnColor': '#FDBB57',
         'pColor': '#BFA885',
         'recColor': '#FEECC8',
+        'bgTwoColor': '#CFA485',
+        'tColor': '#C4C4C4',
       },
       borderRadius: {
         'large': '12px',
