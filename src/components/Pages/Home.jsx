@@ -80,13 +80,13 @@ const Home = () => {
                             <Paragraph className={"font-pops font-semibold text-2xl pl-[50px] pt-[50px] pr-10"} pText={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu, odio pellentesque mattis pulvinar felis. At arcu ornare rhoncus, elementum non viverra. "}></Paragraph>
                         </div>
                     </Flex>
-                    <div className='w-[750px] h-[250px] bg-recColor rounded-positionbtn relative absolute bottom-[-2041px] left-[530px]'>
+                    <div className='w-[750px] h-[250px] bg-recColor rounded-positionbtn relation absolute bottom-[-2041px] left-[530px]'>
                         <Flex>
-                            <div className={"relative after:absolute after:top-0 after:right-0 after:content-[''] after:w-0.5 after:h-[160px] after:bg-black "}>
+                            <div className={"relative after:absolute after:top-[64px] after:-right-[35px] after:content-[''] after:w-0.5 after:h-[130px] after:bg-black"}>
                                 <Heading name={"2010"} className={"font-podkova font-bold text-[64px]  pl-[70px] pt-[50px]"}></Heading>
                                 <Paragraph pText={"Founded"} className={"font-pops font-medium text-[28px] pl-[70px]"}></Paragraph>
                             </div>
-                            <div className='border-r-2 border-pr-[50px] border-black '>
+                            <div className={"relative after:absolute after:top-[64px] after:-right-[35px] after:content-[''] after:w-0.5 after:h-[130px] after:bg-black"}>
                                 <Heading name={"5000+"} className={"font-podkova font-bold text-[64px] pl-[70px] pt-[50px]"}></Heading>
                                 <Paragraph pText={"Product Sold"} className={"font-pops font-medium text-[28px] pl-[70px]"}></Paragraph>
                             </div>
